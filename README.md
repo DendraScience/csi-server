@@ -6,5 +6,5 @@ Used for building a Docker image to run Campbell Scientific LoggerNet in a conta
 ## Example
 
 ```
-docker run -d -p 6789:6789 --rm -v $(pwd)/bin:/opt/CampbellSci/LoggerNet -v $(pwd)/config:/etc/opt/CampbellSci -v $(pwd)/logs:/var/log/CampbellSci/LoggerNet -v $(pwd)/work:/var/opt/CampbellSci/LoggerNet dendra:csi-server
+docker run -d -p 6789:6789 --rm -v $(pwd)/bin:/opt/CampbellSci/LoggerNet -v $(pwd)/config:/etc/opt/CampbellSci -v $(pwd)/work:/var/opt/CampbellSci/LoggerNet dendra:csi-server
 ```
